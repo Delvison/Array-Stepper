@@ -32,6 +32,9 @@ def calculate_hops_to(nums):
     the program may traverse 0 to n indices forward, calculate how many steps
     are required to get to the ith index. Return an array of the same size with
     the said calculated values.
+    EXAMPLE:
+        nums          =   [2 ,1 ,1 ,4 ,5 ,1 ,0 ,0 ,3 ,1]
+        hops_needed   =   [0 ,1 ,1 ,2 ,3 ,3 ,3 ,3 ,4 ,4]
     """
     hops_needed = [0] # init to 0 since first index is 0 hops
     hop_level = 0
