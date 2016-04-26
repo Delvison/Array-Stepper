@@ -74,5 +74,5 @@ if __name__ == "__main__":
         solution = construct_solution(nums)
         print_solution(solution)
     except IndexError:
-        print("pass a file in")
+        print("Error: a file should be passed in as an argument.")
         sys.exit()
